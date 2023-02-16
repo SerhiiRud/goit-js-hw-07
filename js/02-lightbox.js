@@ -13,7 +13,7 @@ const galleryMarkup = galleryItems
 galleryElem.insertAdjacentHTML("beforeend", galleryMarkup);
 
 const lightbox = new SimpleLightbox(".gallery a", {
-  overlayOpacity: 0.5,
+  overlayOpacity: 0.6,
   captionsData: "alt",
   captionPosition: "bottom",
   captionDelay: 250,
